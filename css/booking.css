@@ -1,0 +1,125 @@
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 7px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+header.sticky{
+  background-color: #AD764A;
+  box-shadow: 0 5px 10px #000;
+}
+header .logo{
+  position:relative;
+  font-size: 1.9em;
+  color: #000; /*#fff*/
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+header .navigation{
+  position: relative;
+  display:flex;
+}
+
+header .navigation li{
+  list-style: none;
+}
+
+header .navigation li a{
+  display: inline-block;
+  color: #000;  /*#fff*/
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px;
+  transition: 0.3s ease;
+}
+
+header .navigation li a:hover{
+  color: #AD764A;
+  background-color:#000;
+  border-radius: 10px; /*4rem*/
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px #000;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0px;
+  background: #eee;/*rgb(206, 203, 203)*/
+}
+
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+div.smart-wrap {
+  border-radius: 25px;
+  padding: 40px;
+  background-color: rgb(238, 234, 234);
+  height: 1000px;
+  width: 600px;
+  margin: 100px 0;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  display: inline-block;
+    padding: 15px 30px;
+    background: #AD764A;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-left: 150px;
+  
+}
+
+button:hover {
+  border: 2px solid black;
+}
